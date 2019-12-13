@@ -26,7 +26,7 @@ platform :ios do
       configuration: "Debug",
       scheme: "CICDSample",
       clean: true,
-      export_method: "Development",
+      export_method: "development",
       project: "CICDSample.xcodeproj",
       output_directory: "~/Desktop", # Destination directory. Defaults to current directory.
       output_name: "CICDSample.ipa",
