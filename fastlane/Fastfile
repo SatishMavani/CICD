@@ -22,7 +22,7 @@ platform :ios do
   end
   
   lane :CD do
-    build_ios_app(
+    gym(
       configuration: "Debug",
       scheme: "CICDSample",
       clean: true,
