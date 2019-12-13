@@ -20,4 +20,17 @@ platform :ios do
   lane :custom_lane do
     puts("this is my first 🚀 lane")
   end
+  
+  lane :CD do
+    build_ios_app(
+      configuration: "Debug",
+      scheme: "CICDSample",
+      clean: true,
+      export_method: "Development",
+      project: "CICDSample.xcodeproj",
+      output_directory: "~/Desktop", # Destination directory. Defaults to current directory.
+      output_name: "CICDSample.ipa",
+    )
+  end
+
 end
