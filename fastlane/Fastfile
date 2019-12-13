@@ -28,7 +28,7 @@ platform :ios do
       clean: true,
       export_method: "development",
       project: "CICDSample.xcodeproj",
-      output_directory: "~/Desktop", # Destination directory. Defaults to current directory.
+      output_directory: "~/Desktop/IPA", # Destination directory. Defaults to current directory.
       output_name: "CICDSample.ipa",
     )
   end
