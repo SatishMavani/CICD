@@ -14,6 +14,7 @@
 		7607527523A3913A0077E0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7607527423A3913A0077E0F3 /* Assets.xcassets */; };
 		7607527823A3913A0077E0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7607527623A3913A0077E0F3 /* LaunchScreen.storyboard */; };
 		7607528323A3913B0077E0F3 /* CICDSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607528223A3913B0077E0F3 /* CICDSampleTests.swift */; };
+		76D6DAA423A76A270029F1B9 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76D6DAA323A76A270029F1B9 /* ExportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		7607527E23A3913B0077E0F3 /* CICDSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7607528223A3913B0077E0F3 /* CICDSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDSampleTests.swift; sourceTree = "<group>"; };
 		7607528423A3913B0077E0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D6DAA323A76A270029F1B9 /* ExportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		7607525F23A391390077E0F3 = {
 			isa = PBXGroup;
 			children = (
+				76D6DAA323A76A270029F1B9 /* ExportOptions.plist */,
 				7607526A23A391390077E0F3 /* CICDSample */,
 				7607528123A3913B0077E0F3 /* CICDSampleTests */,
 				7607526923A391390077E0F3 /* Products */,
@@ -183,6 +186,7 @@
 				7607527823A3913A0077E0F3 /* LaunchScreen.storyboard in Resources */,
 				7607527523A3913A0077E0F3 /* Assets.xcassets in Resources */,
 				7607527323A391390077E0F3 /* Main.storyboard in Resources */,
+				76D6DAA423A76A270029F1B9 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
