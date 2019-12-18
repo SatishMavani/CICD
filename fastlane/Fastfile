@@ -22,7 +22,7 @@ platform :ios do
   end
 
   lane :tests do
-    run_tests(scheme: "CICDSample")
+    run_tests(scheme: "CICDSampleTests")
   end
   
   lane :CD do
