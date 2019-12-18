@@ -20,6 +20,10 @@ platform :ios do
   lane :custom_lane do
     puts("this is my first 🚀 lane")
   end
+
+  lane :tests do
+    run_tests(scheme: "CICDSample")
+  end
   
   lane :CD do
     gym(
