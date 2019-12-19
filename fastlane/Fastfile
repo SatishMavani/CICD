@@ -28,7 +28,7 @@ platform :ios do
   lane :CD do
     gym(
       configuration: "Debug",
-      scheme: "Debug",
+      scheme: "Red",
       clean: true,
       export_method: "development",
       project: "CICDSample.xcodeproj",
