@@ -27,7 +27,7 @@ platform :ios do
   
   lane :CD do
     gym(
-      configuration: "Debug",
+      configuration: "Red",
       scheme: "Red",
       clean: true,
       export_method: "development",
