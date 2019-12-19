@@ -25,10 +25,34 @@ platform :ios do
     run_tests(scheme: "CICDSampleTests")
   end
   
-  lane :CD do
+  lane :CDRED do
     gym(
-      configuration: "Debug",
+      configuration: "Red",
       scheme: "Red",
+      clean: true,
+      export_method: "development",
+      project: "CICDSample.xcodeproj",
+      output_directory: "~/Desktop/IPA", # Destination directory. Defaults to current directory.
+      output_name: "CICDSample.ipa",
+    )
+  end
+
+lane :CDBLUE do
+    gym(
+      configuration: "Blue",
+      scheme: "Blue",
+      clean: true,
+      export_method: "development",
+      project: "CICDSample.xcodeproj",
+      output_directory: "~/Desktop/IPA", # Destination directory. Defaults to current directory.
+      output_name: "CICDSample.ipa",
+    )
+  end
+
+lane :CDGREEN do
+    gym(
+      configuration: "Green",
+      scheme: "Green",
       clean: true,
       export_method: "development",
       project: "CICDSample.xcodeproj",
