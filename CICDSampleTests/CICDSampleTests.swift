@@ -30,5 +30,22 @@ class CICDSampleTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testValidBGColor()  {
+        
+        let vc = ViewController()
+        let bgcolor = vc.view.backgroundColor
+        
+        #if Red
+            XCTAssertEqual(bgcolor, UIColor.red)
+        #elseif Blue
+           XCTAssertEqual(bgcolor, UIColor.blue)
+        #elseif Green
+            XCTAssertEqual(bgcolor, UIColor.green)
+        #else
+            XCTAssertEqual(bgcolor, UIColor.gray)
+        #endif
+
+    }
 
 }

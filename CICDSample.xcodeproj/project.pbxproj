@@ -15,6 +15,7 @@
 		7607527823A3913A0077E0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7607527623A3913A0077E0F3 /* LaunchScreen.storyboard */; };
 		7607528323A3913B0077E0F3 /* CICDSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607528223A3913B0077E0F3 /* CICDSampleTests.swift */; };
 		76D6DAA423A76A270029F1B9 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76D6DAA323A76A270029F1B9 /* ExportOptions.plist */; };
+		76FC910323B0CD7700EEF8A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7607526F23A391390077E0F3 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FC910323B0CD7700EEF8A2 /* ViewController.swift in Sources */,
 				7607528323A3913B0077E0F3 /* CICDSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
