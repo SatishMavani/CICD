@@ -43,7 +43,7 @@ class CICDSampleTests: XCTestCase {
         #elseif Green
             XCTAssertEqual(bgcolor, UIColor.green)
         #else
-            XCTAssertEqual(bgcolor, UIColor.gray)
+            XCTAssertEqual(bgcolor, UIColor.green)
         #endif
 
     }
