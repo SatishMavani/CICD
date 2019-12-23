@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7607526723A391390077E0F3"
-               BuildableName = "CICDSample.app"
+               BuildableName = "CICDSampleRelease.app"
                BlueprintName = "CICDSample"
                ReferencedContainer = "container:CICDSample.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7607526723A391390077E0F3"
-            BuildableName = "CICDSample.app"
+            BuildableName = "CICDSampleRelease.app"
             BlueprintName = "CICDSample"
             ReferencedContainer = "container:CICDSample.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7607526723A391390077E0F3"
-            BuildableName = "CICDSample.app"
+            BuildableName = "CICDSampleRelease.app"
             BlueprintName = "CICDSample"
             ReferencedContainer = "container:CICDSample.xcodeproj">
          </BuildableReference>
