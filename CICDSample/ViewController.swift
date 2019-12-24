@@ -28,9 +28,9 @@ class ViewController: UIViewController {
         
         if (self.btnClickMe != nil) {
             #if Green
-                self.btnClickMe.isHidden = false
-            #else
                 self.btnClickMe.isHidden = true
+            #else
+                self.btnClickMe.isHidden = false
             #endif
         }
         
