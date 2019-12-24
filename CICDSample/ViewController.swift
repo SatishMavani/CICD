@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         #elseif Green
             self.view.backgroundColor = UIColor.green
         #else
-            self.view.backgroundColor = UIColor.gray
+            self.view.backgroundColor = UIColor.green
         #endif
         
         
