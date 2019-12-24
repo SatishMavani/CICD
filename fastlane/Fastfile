@@ -17,6 +17,7 @@ default_platform(:ios)
 
 platform :ios do
   desc "Description of what the lane does"
+
   lane :custom_lane do
     puts("this is my first 🚀 lane")
   end
@@ -30,12 +31,13 @@ platform :ios do
 	clean: true,
      )
 	puts("Build successful!")
-    end
+  end
 
 
   lane :run_bgcolor_test do
     run_tests(scheme: "CICDSampleTests")
   end
+
   
   lane :export_red do
     gym(
@@ -49,7 +51,7 @@ platform :ios do
     )
   end
 
-lane : export_blue do
+  lane :export_blue do
     gym(
       configuration: "Blue",
       scheme: "Blue",
@@ -61,7 +63,7 @@ lane : export_blue do
     )
   end
 
-lane : export_green do
+ lane :export_green do
     gym(
       configuration: "Green",
       scheme: "Green",
