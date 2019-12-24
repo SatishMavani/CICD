@@ -33,11 +33,11 @@ platform :ios do
     end
 
 
-  lane :tests do
+  lane :run_bgcolor_test do
     run_tests(scheme: "CICDSampleTests")
   end
   
-  lane :CDRED do
+  lane :export_red do
     gym(
       configuration: "Red",
       scheme: "Red",
@@ -49,7 +49,7 @@ platform :ios do
     )
   end
 
-lane :CDBLUE do
+lane : export_blue do
     gym(
       configuration: "Blue",
       scheme: "Blue",
@@ -61,7 +61,7 @@ lane :CDBLUE do
     )
   end
 
-lane :CDGREEN do
+lane : export_green do
     gym(
       configuration: "Green",
       scheme: "Green",
