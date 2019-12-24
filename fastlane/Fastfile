@@ -22,7 +22,7 @@ platform :ios do
   end
 
 
-  lane :build do
+  lane :build_red do
      gym(
 	configuration: "Red",
 	scheme: "Red",
