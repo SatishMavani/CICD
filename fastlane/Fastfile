@@ -28,7 +28,7 @@ platform :ios do
 	scheme: "Red",
    	export_method: "development",
 	clean: true,
-	puts("Build successful!")
+	puts("Build successful!"),
      )
     end
 
