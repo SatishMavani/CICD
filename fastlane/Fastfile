@@ -21,6 +21,17 @@ platform :ios do
     puts("this is my first 🚀 lane")
   end
 
+
+  lane :build do
+     gym(
+	configuration: "Red",
+	scheme: "Red",
+   	export_method: "development",
+	clean: true,
+     )
+    end
+
+
   lane :tests do
     run_tests(scheme: "CICDSampleTests")
   end
