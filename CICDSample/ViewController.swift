@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.btnClickMe.isHidden = false
         
         #if Red
             self.view.backgroundColor = UIColor.red
@@ -23,24 +24,25 @@ class ViewController: UIViewController {
             self.view.backgroundColor = UIColor.green
         #else
             self.view.backgroundColor = UIColor.gray
+             self.btnClickMe.isHidden = true
         #endif
         
-        var nsDictionary: NSDictionary?
-        if let path = Bundle.main.path(forResource: "Info", ofType: "plist") {
-           nsDictionary = NSDictionary(contentsOfFile: path)
-            
-            if let value = nsDictionary?["ShowClickButton"] as? Bool {
-                if value {
-                    self.btnClickMe.isHidden = false
-                }
-                else{
-                    if (self.btnClickMe != nil) {
-                        self.btnClickMe.isHidden = true
-                    }
-                }
-            }
-            
-        }
+//        var nsDictionary: NSDictionary?
+//        if let path = Bundle.main.path(forResource: "Info", ofType: "plist") {
+//           nsDictionary = NSDictionary(contentsOfFile: path)
+//
+//            if let value = nsDictionary?["ShowClickButton"] as? Bool {
+//                if value {
+//                    self.btnClickMe.isHidden = false
+//                }
+//                else{
+//                    if (self.btnClickMe != nil) {
+//                        self.btnClickMe.isHidden = true
+//                    }
+//                }
+//            }
+//
+//        }
         
     }
 }
